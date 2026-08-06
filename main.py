@@ -18,7 +18,13 @@ while student_name == "":
     student_name = input("Enter the Student Name: ")
 
 registration_number = input("Enter registration number: ")
+while registration_number == "":
+    print("Registration number cannot be empty")
+    registration_number = input("Enter your registration number: ")
 graduation_year = int(input("Enter graduation year: "))
+while graduation_year == "":
+    print("Graduation Year cannot be empty")
+    graduation_year = int(input("Enter your graduation year: "))
 
 # TODO: Validate attendance between 0 and 100.
 attendance = float(input("Enter attendance percentage: "))

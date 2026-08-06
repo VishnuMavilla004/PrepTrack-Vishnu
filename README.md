@@ -12,10 +12,11 @@
 | Member Name | GitHub Profile Link | PrepTrack Repository Link | Submission Status |
 | :--- | :--- | :--- | :--- |
 | **Vishnu Mavilla** *(Lead)* | [GitHub Profile](https://github.com/VishnuMavilla004) | [PrepTrack-Vishnu](https://github.com/VishnuMavilla004/PrepTrack-Vishnu) | `Completed` |
-| Member 2 | [GitHub Profile](https://github.com/username) | [Repository Link](https://github.com/username/PrepTrack) | `Pending` |
-| Member 3 | [GitHub Profile](https://github.com/username) | [Repository Link](https://github.com/username/PrepTrack) | `Pending` |
-| Member 4 | [GitHub Profile](https://github.com/username) | [Repository Link](https://github.com/username/PrepTrack) | `Pending` |
+| S Rahul | [GitHub Profile](https://github.com/rahul777) | [Repository Link](https://github.com/rahul777-code/preptrack-rahul) | `Completed` |
+| Ujwala Sree | [GitHub Profile](https://github.com/ujwalasree) | [Repository Link](https://github.com/ujwalasree/Preptrack-ujwala) | `Completed` |
+| Ranjith | [GitHub Profile](https://github.com/username) | [Repository Link](https://github.com/username/PrepTrack) | `Pending` |
 | Member 5 | [GitHub Profile](https://github.com/username) | [Repository Link](https://github.com/username/PrepTrack) | `Pending` |
+
 
 ---
 

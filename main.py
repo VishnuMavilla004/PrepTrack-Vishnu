@@ -59,6 +59,7 @@ while profile_input != "yes" or profile_input != "no":
     if profile_input == "yes" or project_input == "no":
         break
     else:
+        print("Please enter yes or no only")
         profile_input = input("Is the student profile verified? Enter yes or no: ")
 
 # TODO: Convert profile_input into True or False.

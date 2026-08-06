@@ -37,17 +37,23 @@ while attendance < 0 or attendance > 100:
     attendance = float(input("Enter your attendance percentage: "))
 
 # TODO: Accept only yes or no.
-project_input = input(
-    "Has the student completed the required project? Enter yes or no: "
-)
+project_input = input("Has the student completed the required project? Enter yes or no: ")
+while project_input != "yes" or project_input != "no":
+    if project_input == "yes" or project_input == "no":
+        break
+    else:
+        project_input = input("Has the student completed the required project? Enter yes or no: ")
 
-# TODO: Convert project_input into True or False.
 project_completed = False
 
+if project_input == "yes":
+    project_completed = True
+else:
+    project_completed = False
+
+
 # TODO: Accept only yes or no.
-profile_input = input(
-    "Is the student profile verified? Enter yes or no: "
-)
+profile_input = input("Is the student profile verified? Enter yes or no: ")
 
 # TODO: Convert profile_input into True or False.
 profile_verified = False

@@ -205,3 +205,62 @@ placement_ready = (
     and project_completed
     and profile_verified
 )
+
+
+
+# --------------------------------------------------
+# 6. DETERMINE FINAL STATUS
+# --------------------------------------------------
+
+# TODO: Check conditions in this priority:
+# 1. No practice attempted
+# 2. Critical score found
+# 3. Fewer than six attempts
+# 4. Fewer than four passed days
+# 5. Average below 70
+# 6. Attendance below 75
+# 7. Graduation year not eligible
+# 8. Project incomplete
+# 9. Profile not verifiedgit
+# 10. Ready for Mock Interview
+if attempted_days == 0:
+    final_status = "Practice Not Evaluated"
+    primary_blocker = "No practice attempted"
+    next_action = "Attempt the required coding practices"
+elif critical_score_found:
+    final_status = "Critical Support Required"
+    primary_blocker = "Critical score found"
+    next_action = "Revise concepts from the first critical day"
+elif attempted_days < 6:
+    final_status = "Practice Incomplete"
+    primary_blocker = "Fewer than six attempts"
+    next_action = "Complete at least six practice days"
+elif passed_days < 4:
+    final_status = "Insufficient Passed Practices"
+    primary_blocker = "Fewer than four passed days"
+    next_action = "Pass at least four coding practices"
+elif average_score < 70:
+    final_status = "Practice Improvement Required"
+    primary_blocker = "Average score below 70"
+    next_action = "Improve average score to at least 70"
+elif attendance < 75:
+    final_status = "Attendance Improvement Required"
+    primary_blocker = "Attendance below 75%"
+    next_action = "Improve attendance to at least 75%"
+elif not graduation_eligible:
+    final_status = "Graduation Criteria Not Met"
+    primary_blocker = "Graduation year not eligible"
+    next_action = "Meet graduation year eligibility"
+elif not project_completed:
+    final_status = "Application On Hold"
+    primary_blocker = "Project incomplete"
+    next_action = "Complete the required project"
+elif not profile_verified:
+    final_status = "Application On Hold"
+    primary_blocker = "Profile not verified"
+    next_action = "Get the profile verified"
+else:
+    final_status = "Ready for Mock Interview"
+    primary_blocker = "None"
+    next_action = "Proceed to placement mock interviews"
+

@@ -32,6 +32,9 @@ while graduation_year < 2025 or graduation_year > 2027:
 
 # TODO: Validate attendance between 0 and 100.
 attendance = float(input("Enter attendance percentage: "))
+while attendance < 0 or attendance > 100:
+    print("Attendance must be between 0 and 100")
+    attendance = float(input("Enter your attendance percentage: "))
 
 # TODO: Accept only yes or no.
 project_input = input(

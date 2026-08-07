@@ -14,8 +14,7 @@
 | **Vishnu Mavilla** *(Lead)* | [GitHub Profile](https://github.com/VishnuMavilla004) | [PrepTrack-Vishnu](https://github.com/VishnuMavilla004/PrepTrack-Vishnu) | `Completed` |
 | S Rahul | [GitHub Profile](https://github.com/rahul777) | [Repository Link](https://github.com/rahul777-code/preptrack-rahul) | `Completed` |
 | Ujwala Sree | [GitHub Profile](https://github.com/ujwalasree) | [Repository Link](https://github.com/ujwalasree/Preptrack-ujwala) | `Completed` |
-| Ranjith | [GitHub Profile](https://github.com/username) | [Repository Link](https://github.com/username/PrepTrack) | `Pending` |
-| Member 5 | [GitHub Profile](https://github.com/username) | [Repository Link](https://github.com/username/PrepTrack) | `Pending` |
+| Ranjith | [GitHub Profile](https://github.com/Ranjith950) | [Repository Link](https://github.com/Ranjith950/Preptrack-ranjith/) | `Completed` |
 
 
 ---
